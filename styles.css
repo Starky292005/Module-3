@@ -1,0 +1,81 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fefefe;
+}
+
+.navbar {
+    background: linear-gradient(45deg, #ff7eb3, #ff758c);
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #fff !important;
+}
+
+.navbar-nav > li > a {
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.jumbotron {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    margin-top: 50px;
+    padding: 50px 20px;
+    border-radius: 0;
+}
+
+.section {
+    height: 600px;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+#chicken {
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+}
+
+#beef {
+    background: linear-gradient(45deg, #ff9a9e, #fecfef);
+}
+
+#sushi {
+    background: linear-gradient(45deg, #ffb3b3, #ffcccb);
+}
+
+.section h3 {
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.section p {
+    font-size: 1.2em;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #ff758c;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #ff758c;
+    color: #fff;
+}
